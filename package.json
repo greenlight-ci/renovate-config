@@ -1,0 +1,46 @@
+{
+  "version": "0.0.0-development",
+  "name": "@greenlight/renovate-config",
+  "description": "preset configs for Renovate",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://github.com/greenlight-ci/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenlight-ci/renovate-config.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "telus",
+    "renovate",
+    "config"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/greenlight-ci/renovate-config/issues"
+  },
+  "scripts": {
+    "test": "echo \"WARNING: testing not applicable\" && exit 0"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:js-app",
+        "schedule:daily"
+      ],
+      "lockFileMaintenance": {
+        "enabled": true,
+        "extends": "schedule:weekly"
+      },
+      "labels": [
+        "dependencies"
+      ],
+      "prHourlyLimit": 0,
+      "prConcurrentLimit": 0,
+      "semanticCommits": true,
+      "rebaseStalePrs": true,
+      "ignoreNpmrcFile": true
+    }
+  }
+}
