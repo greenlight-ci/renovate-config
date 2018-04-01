@@ -26,20 +26,20 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:js-app",
-        "schedule:daily"
+        "config:base",
+        "schedule:weekly",
+        "default:pinDigestsDisabled",
+        "default:separatePatchReleases",
+        "default:maintainLockFilesWeekly",
+        "default:semanticCommits",
+        "default:rebaseStalePrs",
+        "default:preserveSemverRanges"
       ],
-      "lockFileMaintenance": {
-        "enabled": true,
-        "extends": "schedule:weekly"
-      },
       "labels": [
         "dependencies"
       ],
       "prHourlyLimit": 0,
       "prConcurrentLimit": 0,
-      "semanticCommits": true,
-      "rebaseStalePrs": true,
       "ignoreNpmrcFile": true
     }
   }
