@@ -14,8 +14,6 @@ cache:
 stages:
   - release
 
-before_install: export PATH=$PATH:$TRAVIS_BUILD_DIR/.scripts
-
 jobs:
   include:
     - stage: release
