@@ -3,10 +3,10 @@
   "name": "@greenlight/renovate-config",
   "description": "preset configs for Renovate",
   "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
-  "homepage": "https://github.com/greenlight-ci/renovate-config",
+  "homepage": "https://github.com/greenlight/renovate-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/greenlight-ci/renovate-config.git"
+    "url": "https://github.com/greenlight/renovate-config.git"
   },
   "license": "ISC",
   "keywords": [
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/greenlight-ci/renovate-config/issues"
+    "url": "https://github.com/greenlight/renovate-config/issues"
   },
   "scripts": {
     "test": "echo \"WARNING: testing not applicable\" && exit 0"
