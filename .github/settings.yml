@@ -1,6 +1,6 @@
 repository:
   name: renovate-config
-  description: preset configs for Renovate
+  description: 👷 preset configs for Renovate
   topics: greenlight, renovate, config
   private: false
   has_issues: false
