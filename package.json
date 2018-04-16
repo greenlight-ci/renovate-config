@@ -28,11 +28,11 @@
       "extends": [
         "config:base",
         "schedule:daily",
-        "default:pinDigestsDisabled",
         "default:maintainLockFilesWeekly",
-        "default:semanticCommits",
+        "default:pinDigestsDisabled",
+        "default:preserveSemverRanges",
         "default:rebaseStalePrs",
-        "default:preserveSemverRanges"
+        "default:semanticCommits"
       ],
       "labels": [
         "dependencies"
