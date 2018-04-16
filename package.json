@@ -27,7 +27,7 @@
     "default": {
       "extends": [
         "config:base",
-        "schedule:weekly",
+        "schedule:daily",
         "default:pinDigestsDisabled",
         "default:maintainLockFilesWeekly",
         "default:semanticCommits",
